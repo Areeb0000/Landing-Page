@@ -1,0 +1,378 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+header{
+    height: 18em;
+}
+.navbar {
+    z-index: 9999;
+}
+.navbar-brand{
+    font-size: 3em;
+    margin-left: 2% !important;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.collapse{
+  justify-content: right;
+  align-items: right;
+}
+.navbar-nav li a,.navbar-brand{
+    margin: 5px;
+    color: white;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    color: rgb(67, 95, 255)  !important;
+}
+#getin{
+    background-color:rgb(67, 95, 255);
+    border-radius: 35%;
+}
+#getin:hover{
+    color: black !important;;
+}
+.nav-link:after {
+    content: '';
+    position: absolute; 
+    width: 100%; 
+    transform: scaleX(0);
+    height: 2.5px; 
+    bottom: 0; 
+    left: 0; 
+    background-color: #ffffff; 
+    transform-origin: bottom right; 
+    transition: transform 0.25s ease-out;
+}
+.nav-link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left; 
+}
+  
+
+.number{
+    font-size: 2em;
+    writing-mode: tb-rl;
+    margin-left: 5%;
+    transform: rotate(180deg);
+}
+.hey{
+    font-size: 35px;
+    margin-left: 11%;
+    position: absolute;
+    top: 31.2%;
+}
+.description{
+    font-size: 3em;
+    margin-left: 11%;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.span1{
+    color: rgb(0, 81, 255);
+}
+.btn1{
+    font-size: 1.5em;
+    margin-left: 11%;
+    font-weight: 600;
+    position: absolute;
+    top: 67%;
+    padding: 10px;
+    background-color:rgb(0, 38, 255);
+    border-radius: 22%;
+}
+
+.div1{
+    position: absolute;
+    top:27%;
+    left: 65%;
+    height: 40%;
+    width: 35%;
+}
+.div1 img{
+    width: 85%;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 132, 255);
+}
+@media only screen and (max-width:1100px) {
+    header{
+        height: 6em;
+    }
+
+    .number{
+        font-size: 2em;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-left: 38%;
+        position: absolute;
+        top: 30.5%;
+    }
+    .hey{
+        font-size: 35px;
+        position: absolute;
+        top: 30.5%;
+        left: 7%;
+   }
+
+    .description{
+    font-size: 4em;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    left: 7%;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+    .btn1{
+        font-size: 1.5em;
+        font-weight: 600;
+        top: 130%;
+        padding: 10px;
+        background-color:rgb(0, 38, 255);
+        border-radius: 22%;
+        margin-left: 42%;
+    }
+
+    .div1{
+        position: absolute;
+        top:75%;
+        left: 31%;
+        height: 40%;
+        width: 50vw;
+    }
+    .div1 img{
+        width: 85%;
+        border-radius: 20%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+}
+@media only screen and (max-width:900px) {
+    /* .number{
+        font-size: 2em;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-left: 38%;
+        position: absolute;
+        top: 30.5%;
+    }
+    .hey{
+        font-size: 35px;
+        position: absolute;
+        top: 30.5%;
+        left: 7%;
+   }
+
+    .description{
+    font-size: 4em;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    left: 7%;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+    .btn1{
+        font-size: 1.5em;
+        font-weight: 600;
+        top: 130%;
+        padding: 10px;
+        background-color:rgb(0, 38, 255);
+        border-radius: 22%;
+        margin-left: 42%;
+    }
+
+    .div1{
+        position: absolute;
+        top:75%;
+        left: 31%;
+        height: 40%;
+        width: 50vw;
+    }
+    .div1 img{
+        width: 85%;
+        border-radius: 20%;
+        border: 2px solid rgb(255, 255, 255);
+    }   
+    .number{
+        font-size: 2em;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-left: 33%;
+        position: absolute;
+        top: 30.5%;
+    }
+    .hey{
+        font-size: 35px;
+        position: absolute;
+        top: 30.5%;
+        left: 2%;
+   }
+
+    .description{
+    font-size: 4em;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    left: 1%;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+    .btn1{
+        font-size: 1.5em;
+        font-weight: 600;
+        top: 130%;
+        padding: 10px;
+        background-color:rgb(0, 38, 255);
+        border-radius: 22%;
+        margin-left: 38%;
+    } */
+
+    header{
+        height: 1em;
+    }
+    .number{
+        font-size: 2.5em;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-left: 48%;
+        width: 100%;
+        top: 18.5%;
+        left: 0%;
+ 
+    }
+    .hey{
+        margin-left: 7%;
+        font-size: 30px;
+        width: 40%;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+   
+   }
+
+    .description{
+    margin-left: 7%;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 95%;
+    left: 0%;
+    top: 27%;
+}
+
+    .btn1{
+        font-size: 1.5em;
+        font-weight: 600;
+        top: 90%;
+        padding: 10px;
+        background-color:rgb(0, 38, 255);
+        border-radius: 22%;
+        margin-left: 25%;
+    }
+
+    .div1{
+        position: absolute;
+        top:50%;
+        left: 17%;
+        height: 40%;
+        width: 100%;
+    }
+    .div1 img{
+        width: 65%;
+        border-radius: 20%;
+        border: 3.5px solid rgb(255, 255, 255);
+    }
+    #getin{
+        background-color:black;
+    }
+    #getin:hover{
+        color: rgb(67, 95, 255) !important; ;
+    }
+    section{
+        overflow-x: hidden !important;
+    }
+
+}
+@media only screen and (max-width:375px){
+
+    .number{
+        font-size: 2.5em;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-left: 50%;
+        width: 100%;
+        top: 18.5%;
+        left: 0%;
+ 
+    }
+    .hey{
+        margin-left: 4%;
+        font-size: 30px;
+        width: 45%;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+   
+   }
+
+    .description{
+    margin-left: 4%;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+    left: 0%;
+    top: 27%;
+}
+
+    .btn1{
+        font-size: 1.5em;
+        font-weight: 600;
+        top: 100%;
+        padding: 10px;
+        background-color:rgb(0, 38, 255);
+        border-radius: 22%;
+        margin-left: 25%;
+    }
+
+    .div1{
+        position: absolute;
+        top:55%;
+        left: 17%;
+        height: 40%;
+        width: 100%;
+    }
+    .div1 img{
+        width: 65%;
+        border-radius: 20%;
+        border: 3.5px solid rgb(255, 255, 255);
+    }
+    #getin{
+        background-color:black;
+    }
+    #getin:hover{
+        color: rgb(67, 95, 255) !important; ;
+    }
+    section{
+        overflow: hidden !important;
+    }
+}
